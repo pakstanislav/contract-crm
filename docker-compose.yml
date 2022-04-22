@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+
+  mongodb:
+    container_name: mongodb_docsapi
+    hostname: mongodb_docsapi
+    image: mongo:5.0.7-focal
+    restart: unless-stopped
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=Welc0me1
+      - MONGO_INITDB_DATABASE=contracts
+    volumes:
+      - ./data:/data/db
+    ports:
+      - 27017:21017
+
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - 27018:8081
+    environment:
+      ME_CONFIG_OPTIONS_EDITORTHEME: 3024-night
+      ME_CONFIG_MONGODB_ADMINUSERNAME: admin
+      ME_CONFIG_MONGODB_ADMINPASSWORD: Welc0me1
+      ME_CONFIG_MONGODB_URL: mongodb_docsapi://admin:Welc0me1@mongo:27017/
+    depends_on:
+      - mongodb

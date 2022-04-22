@@ -15,12 +15,18 @@ services:
       - ./data:/data/db
     ports:
       - 27017:21017
+    networks: 
+      bridge:
+        ipv4_address: 172.250.250.201
 
   mongo-express:
     image: mongo-express
     restart: always
     ports:
       - 27018:8081
+    networks: 
+      bridge:
+        ipv4_address: 172.250.250.200
     environment:
       ME_CONFIG_OPTIONS_EDITORTHEME: 3024-night
       ME_CONFIG_MONGODB_ADMINUSERNAME: admin
@@ -28,3 +34,8 @@ services:
       ME_CONFIG_MONGODB_URL: mongodb_docsapi://admin:Welc0me1@mongo:27017/
     depends_on:
       - mongodb
+
+networks:
+  bridge:
+    external: true
+    name: bridge

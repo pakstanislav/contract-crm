@@ -1,0 +1,55 @@
+[
+{
+    "_id": 202204030001,
+    "create_date": "2022-04-22 14:45:30",
+    "contract_name": "Приобретение презервативов",
+    "contract_type": {
+      "_id": 1
+    },
+    "contract_subject": {
+      "_id": 3
+    },
+    "contract_direction": {
+      "_id": 4
+    },
+    "contract_version": [
+      {
+        "contract_id": 1,
+        "contarct_number": "123ASDasd-asdASDasd",
+        "conclusion_date": "2022-04-30 00:00:00",
+        "expiration_date": "2022-12-31 23:59:59",
+        "contract_amount_with_nds": 123456789,
+        "contract_amount_tax_nds": 123,
+        "upload_date": "2022-04-30 00:00:00",
+        "doc_file_name": "as6g13ard51g1d3sf1g3sd13fg13sdfgsdfg"
+      },{
+        "contract_id": 2,
+        "contarct_number": "123ASDasd-asdASDasd",
+        "conclusion_date": "2022-04-30 00:00:00",
+        "expiration_date": "2022-12-31 23:59:59",
+        "contract_amount_with_nds": 123456789,
+        "contract_amount_tax_nds": 123,
+        "upload_date": "2022-04-30 00:00:00",
+        "doc_file_name": "adsfa3s1dg31a3fga3dfg3asfdga3sga"
+      }
+    ],
+    "supplier_details": {
+      "supplier_info": {
+        "_id": 2
+      },
+      "supplier_bank_account": {
+        "_id": 3
+      }
+    },
+    "customer_details": {
+      "customer": {
+        "_id": 3
+      },
+      "customer_bank_account": {
+        "_id": 4
+      }
+    },
+    "user_id": 5555
+  }
+  ]
+  

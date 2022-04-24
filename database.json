@@ -6,6 +6,8 @@
 {
     "_id": 202204030001, //придумать нумерацию, н-р год:мес:день:код_старны:пор.номер
     "create_date": "2022-04-22 14:45:30",
+    "contract_name": "Приобретение презервативов", // наименование договора
+    "contarct_number": "123ASDasd-asdASDasd", //номер договора
     "contract_type": {
       "_id": 1
     }, //СПРАВОЧНИК: соглашение, договор и т.п. Уточнить у Димы
@@ -17,21 +19,17 @@
     }, // СПРАВОЧНИК. приобретение/продажа
     "contract_version": [
       {
-        "contract_id": 1,
-        "contarct_number": "123ASDasd-asdASDasd", //номер договора
+        "contract_version_id": 1,
         "conclusion_date": "2022-04-30 00:00:00", // дата заключения договора
         "expiration_date": "2022-12-31 23:59:59", // дата истечения договора
         "contract_amount_with_nds": 123456789, // сумма договора
-        "contract_amount_tax_nds": 123, // сумма НДС
         "upload_date": "2022-04-30 00:00:00", // дата загрузки pdf
         "doc_file_name": "as6g13ard51g1d3sf1g3sd13fg13sdfgsdfg" //ссылка на pdf
       },{
-        "contract_id": 2,
-        "contarct_number": "123ASDasd-asdASDasd", //номер договора
+        "contract_version_id": 1,
         "conclusion_date": "2022-04-30 00:00:00", // дата заключения договора
         "expiration_date": "2022-12-31 23:59:59", // дата истечения договора
         "contract_amount_with_nds": 123456789, // сумма договора
-        "contract_amount_tax_nds": 123, // сумма НДС
         "upload_date": "2022-04-30 00:00:00", // дата загрузки pdf
         "doc_file_name": "adsfa3s1dg31a3fga3dfg3asfdga3sga" //ссылка на pdf
       }

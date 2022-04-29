@@ -1,0 +1,12 @@
+// Коллекция "дополнительные соглашения к договорам"
+[
+    {
+    "_id": 1,
+    "create_date": "2022-04-22 14:45:30",
+    "contract_id": 202204030001,
+    "additional_agreement_number": "123ASDasd-asdASDasd", //номер дополнительного соглашения
+    "additional_agreement_conclusion_date": "2022-04-30 00:00:00", // дата заключения доп.соглашения
+    "url_doc": "url/to/pdf/file" //ссылка на pdf
+  
+    }
+  ]

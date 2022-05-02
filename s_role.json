@@ -1,0 +1,17 @@
+// Справочник ролей пользователей
+
+[
+  {
+    "role_type": "administrator",
+    "code": 100,
+    "comment": "can all action"
+  },
+  {
+    "role_type": "contract manager",
+    "code": 200,
+    "comment": "can view all contract, can edit only itself contracts"
+  },
+  {
+    "role_type": ""
+  }
+]
